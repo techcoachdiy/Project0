@@ -139,7 +139,16 @@ padding: 20px; /*  */
 }
 @media (max-width: 499px) {
   body {
-    background-color: lavenderblush;
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+       background-color: #141E30;
+       /* background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 20px;
+    padding: 20px; /*  */
   }
 }
 @media (min-width: 500px) {
