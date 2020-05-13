@@ -54,7 +54,7 @@ p {
   line-height: 1.3em;
   text-align: left;
   width: 100%;
-  font-family: cursive, Helvetica;
+  font-family: Georgia, Helvetica;
   font-size: 18px;
   font-weight: bold;
 }
@@ -89,7 +89,7 @@ li {
 }
 a {
   font-size: 18px;
-  font-family: cursive;
+  font-family: Georgia;
   color:rgba(255, 255, 255, 0.5);
 }
 ol a::before {
